@@ -23,7 +23,7 @@ jobs:
         run: mvn -B clean verify -Pintegration-test
 
   sonar:
-    name: Test - SonarCloud Scan
+    name:  Test - SonarCloud Scan
     runs-on: ubuntu-18.04
 
     steps:
